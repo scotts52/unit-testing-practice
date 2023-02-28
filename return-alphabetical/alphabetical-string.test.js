@@ -15,11 +15,11 @@ describe('alphabet_order syntax',() => {
 })
     it("empty value", () => {
     const result = alphabet_order ("");
-    expect(result).not.toBe('')
+    expect(result).toBe('')
 })
     it("single space", () => {
     const result = alphabet_order (" ");
-    expect(result).not.toBe(' ')
+    expect(result).toBe(' ')
 })
 
 })
