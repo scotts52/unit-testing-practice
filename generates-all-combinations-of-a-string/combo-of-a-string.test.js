@@ -29,11 +29,11 @@ describe('generatecombinationsyntax',() => {
 })
     it("empty value", () => {
     const result = generateCombinations("");
-    expect(result).not.toBe('')
+    expect(result).toBe('')
 })
     it("single space", () => {
     const result = generateCombinations(" ");
-    expect(result).not.toBe(' ')
+    expect(result).toBe(' ')
 })
 
 })
